@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:ital,wght@0,100;0,200;0,500;1,100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+}
+
+body {
+    background-color: rgb(3, 0, 0);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+   
+
+}
+body{
+    overflow-x: hidden;
+}
+
+:root{
+    --bs-dark-color: #1a1d20;
+    --bs-dark-primary:#1c1c1c;
+    --bs-main-color:#fff;
+    --bs-primary-color:#c6c6c6;
+    --bs-secondary-color: #29a9fd;
+    --bs-supporting-color: #C850C0;
+}
+
+h1, h2,h3,h4,h5{
+    font-family: 'Urbanist', sans-serif;
+    /* color: var(--bs-main-color); */
+   
+}
+
+h1{
+    font-size: 2.8rem;
+}
+
+h2{
+    line-height: 3rem;
+    font-weight: 600;
+    font-size: 2.4rem;
+}
+h3{
+    font-size: 1.3rem;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'Urbanist', sans-serif;
+    color: var(--bs-primary-color);
+}
+.bg-main{
+    height: 100vh;
+    position: relative;
+}
+
+.custom-shape-divider-bottom-1689662646 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1689662646 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 10px;
+}
+
+.custom-shape-divider-bottom-1689662646 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.footer{
+    display: flex;
+    padding: 23px 120px;
+    justify-content: space-evenly;
+}
+footer .footer-rights{
+    margin-top: 0vh;
+    text-align: center;
+    /* color: var(--bs-dark-color); */
+    padding: 35px 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .section-first h1{
+        text-align: center;
+        line-height: 3rem;
+    }
+    .section-first p{
+        padding: 12px;
+    }
+    .img-section {
+        width: 63vh;
+    }
+    .list-section{
+        width: 64vh;
+    }
+    .horizonal-line{
+        margin-top: 230px;
+    }
+    /* .para-section{
+        margin-top: 128px; 
+    } */
+    /* .section-second h1{
+        margin-top: 211px;
+    } */
+     .section-second p{
+        margin-left: 36px;
+    }
+    .section-second .progress-section{
+        padding: 12px;
+    /* margin-right: 9px; */
+    }
+    .section-third p{
+        margin-left: 36px;
+    }
+
+  }
